@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "CrazyGrannyCookingRecipesContext"
+    },
+    "mssql1": {
+      "resourceId": null,
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStreamDB",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
